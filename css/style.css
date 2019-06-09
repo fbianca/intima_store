@@ -1,0 +1,291 @@
+body {  margin: 0px !important;  font-family: 'Montserrat', sans-serif; }
+
+ul { list-style-type: none; overflow: hidden; }
+
+li { float: left; }
+
+.line { border: 2px solid black; margin-top: 0px; }
+.font-bold { font-weight: bold; }
+
+.nav-top li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+.nav-categoria li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 28px;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+#logo {
+  width: 232px;
+  height: 70px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background: url('../img/intima_logo.png');
+}
+
+.banner { position: relative; }
+
+#label-banner {
+  position: absolute;
+  font-size: 38px;
+  left: 150px;
+  top: 90px;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.btn-banner {
+  font-size: 18px;
+  position: absolute;
+  left: 150px;
+  top: 190px;
+  padding: 25px 30px 25px 30px;
+  background-color: rgba(0,0,0,0);
+}
+
+#label-valor-banner {
+  position: absolute;
+  font-size: 40px;
+  right: 150px;
+  top: 125px;
+}
+
+#coisas {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  justify-content: center;
+  content: "";
+  display: table;
+  clear: both;
+}
+.col {
+  float: left;
+  width: 260px;
+  padding: 10px;
+}
+
+#label-info {
+  font-size: 12px;
+}
+
+#span-info {
+  font-weight: bolder; font-size: 16px;
+}
+
+.content-one {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+table { margin: auto; }
+
+table h3 {
+  font-weight: normal;
+}
+
+.btn-content-one {
+  cursor: pointer;
+  font-size: 12px;
+  padding: 15px 30px 15px 30px;
+  background-color: rgba(0,0,0,0);
+}
+
+.brands { margin: 50px 50px 50px 50px; }
+
+.brands li {
+  display: block;
+  padding: 0px 28px 0px 28px;
+  text-decoration: none;
+}
+
+.nav_tabs {
+  width: 1200px;
+  height: 700px;
+  background-color: #fff;
+  position: relative;
+}
+
+.nav_tabs ul {
+  list-style: none;
+}
+
+.nav_tabs ul li {
+  float: right;
+}
+
+.nav_tabs .lbl {
+  width: 80px;
+  padding: 30px 15px 5px 15px;
+  background-color: #fff;
+  display: block;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
+
+.rd_tabs {
+  display: none;
+}
+
+.rd_tabs:checked ~ label {
+  font-weight: bolder;
+  border-bottom: 2px solid black;
+}
+
+.content {
+  border-top: 1px solid darkgray;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  height: 320px;
+  width: 1200px;
+  left: 0;
+  right: 0;
+}
+
+.rd_tabs:checked ~ .content {
+  display: block;
+}
+.produto1 { float: left; margin-left: 70px; width: 280px }
+
+.vitrine { float: right; width: 1260px; }
+
+.content-two {
+  margin-left: 180px
+}
+
+.cont1 { 
+  float: left;
+  margin-right: 10px
+}
+
+
+#cont1 {
+  font-size: 36px;
+  position: absolute;
+  left: 300px;
+  top: 2000px;
+}
+#cont1-ap {
+  font-size: 26px;
+  position: absolute;
+  left: 360px;
+  top: 2030px;
+}
+#cont1-price {
+  font-size: 56px;
+  position: absolute;
+  left: 330px;
+  top: 2060px;
+  font-weight: bolder;
+}
+.btn-comprar {
+  position: absolute;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 15px 30px 15px 30px;
+  background-color: rgba(0,0,0,0);
+  left: 390px;
+  top: 2150px;
+}
+
+#cont2 {
+  font-size: 46px;
+  position: absolute;
+  left: 850px;
+  top: 2000px;
+}
+#cont2-x {
+  font-size: 46px;
+  position: absolute;
+  left: 870px;
+  top: 2050px;
+}
+.btn-comprar-2 {
+  position: absolute;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 15px 30px 15px 30px;
+  background-color: rgba(0,0,0,0);
+  left: 920px;
+  top: 2150px;
+}
+
+.sobre {
+  margin: 30px 150px 30px 150px;
+  text-align: justify;
+}
+
+.sobre p {
+  font-size: 14px;
+  color: #5f5f5f
+}
+
+.sobre h2 {
+  letter-spacing: 3px;
+}
+
+.news {
+  margin: 30px 150px 30px 150px;
+  padding: 30px;
+  background-color: #f0f0f0;
+}
+
+.news label {  padding-left: 100px }
+
+.btn-enviar {
+  color: white;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+input[type=email] {
+  margin-left: 20px;
+  width: 300px;
+  height: 32px;
+}
+
+footer {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+footer hr {
+  border-color: #f0f0f0;
+}
+
+footer img {
+  float: right;
+  margin-top: 0px;
+}
+
+footer p {
+  float: left;
+  margin: 0px;
+  font-size: 10px;
+}
